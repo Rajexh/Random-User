@@ -1,23 +1,31 @@
+body{
+    background-color: #f9f9f9;
+    font-family: "Ubuntu", sans-serif;
+    left: 0;
+    position: relative;
+    transition: all .25s ease-in-out;
+}
 .containor{
     height: 500px;
-    max-width: 100%;
+    width: 100%;
     background-color: #2c2e31;
-}
-* {
-    -webkit-tap-highlight-color: transparent;
-}
-.nav ul li{
-    height: 24px;
-    position: relative;
-    color: #fff;
-    list-style: none;
-    background-size: 27px;
-}
-.nav ul li a{
-    text-decoration: none;
-    font-size: 24px;
     color: white;
 }
-.nav ul li a:hover{
-    content: "";
+.nav{
+    height: 60px;
+    width: 100%; 
+    background: #222;
+    text-align: center;
+    z-index: 6;
+    text-align: center;
+    position: fixed;
+    
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
 }
